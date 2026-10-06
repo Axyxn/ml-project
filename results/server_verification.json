@@ -1,0 +1,8 @@
+{
+  "health_status": 200,
+  "health_body": "ok",
+  "page_status": 200,
+  "startup_seconds": 1.047000000020489,
+  "port": 65432,
+  "scope": "HTTP startup only; app interactions covered by pytest AppTest"
+}

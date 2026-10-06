@@ -1,0 +1,4 @@
+fold,train_rows,train_frauds,validation_rows,validation_frauds
+1,40000,67,20000,33
+2,40000,67,20000,33
+3,40000,66,20000,34

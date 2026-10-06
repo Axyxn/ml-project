@@ -1,0 +1,8 @@
+{
+  "notebook": "notebooks/credit_card_fraud_detection.ipynb",
+  "cells": 28,
+  "errors": 0,
+  "seconds": 7.295637300005183,
+  "python": "3.12.5",
+  "environment": "project virtual environment"
+}

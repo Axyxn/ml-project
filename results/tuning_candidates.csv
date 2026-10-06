@@ -1,0 +1,19 @@
+experiment,candidate,params,mean_train_ap,mean_cv_ap,std_cv_ap
+Logistic Regression | None | tuned,1,"{""classifier__C"": 0.01, ""classifier__tol"": 0.001}",0.6923742597337078,0.6942012925227171,0.04682062551921227
+Logistic Regression | None | tuned,2,"{""classifier__C"": 1.0, ""classifier__tol"": 0.001}",0.6935983264072005,0.6842119641136429,0.04406334289156757
+Logistic Regression | None | tuned,3,"{""classifier__C"": 0.01, ""classifier__tol"": 0.0001}",0.6919714439806345,0.6922124050558974,0.04824581931956161
+Logistic Regression | SMOTE | tuned,1,"{""classifier__C"": 0.01, ""classifier__tol"": 0.001}",0.6948345653430877,0.6718028103289768,0.05048521113108149
+Logistic Regression | SMOTE | tuned,2,"{""classifier__C"": 1.0, ""classifier__tol"": 0.001}",0.6992013869531967,0.6708120869527563,0.04982838342964953
+Logistic Regression | SMOTE | tuned,3,"{""classifier__C"": 0.01, ""classifier__tol"": 0.0001}",0.6943796128393259,0.6715483730883319,0.05083106943463141
+Decision Tree | None | tuned,1,"{""classifier__criterion"": ""entropy"", ""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 2}",0.9853030060492748,0.5553975337152496,0.04065245799482115
+Decision Tree | None | tuned,2,"{""classifier__criterion"": ""gini"", ""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 10}",0.8299079256204974,0.6310439559170239,0.016492274218291456
+Decision Tree | None | tuned,3,"{""classifier__criterion"": ""entropy"", ""classifier__max_depth"": 12, ""classifier__min_samples_leaf"": 1}",1.0,0.44549623806511857,0.05962771813458413
+Decision Tree | SMOTE | tuned,1,"{""classifier__criterion"": ""entropy"", ""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 2}",0.9936341022161918,0.3485562568427474,0.0376098298411712
+Decision Tree | SMOTE | tuned,2,"{""classifier__criterion"": ""gini"", ""classifier__max_depth"": null, ""classifier__min_samples_leaf"": 10}",0.962828113737705,0.4663907421721926,0.028728438189885786
+Decision Tree | SMOTE | tuned,3,"{""classifier__criterion"": ""entropy"", ""classifier__max_depth"": 12, ""classifier__min_samples_leaf"": 1}",0.988782207080468,0.36903167429776423,0.05592323277129273
+Random Forest | None | tuned,1,"{""classifier__max_depth"": null, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.5, ""classifier__min_samples_leaf"": 2, ""classifier__n_estimators"": 80}",0.957761483439208,0.7590260682241862,0.029321480398439122
+Random Forest | None | tuned,2,"{""classifier__max_depth"": 8, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.7, ""classifier__min_samples_leaf"": 1, ""classifier__n_estimators"": 60}",0.9799497920040939,0.7649686097937947,0.030013726276841943
+Random Forest | None | tuned,3,"{""classifier__max_depth"": 8, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.5, ""classifier__min_samples_leaf"": 2, ""classifier__n_estimators"": 60}",0.9382274862240113,0.7586072347576881,0.017731695186204783
+Random Forest | SMOTE | tuned,1,"{""classifier__max_depth"": null, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.5, ""classifier__min_samples_leaf"": 2, ""classifier__n_estimators"": 80}",0.9983087236011747,0.7637201707194828,0.029713321892818022
+Random Forest | SMOTE | tuned,2,"{""classifier__max_depth"": 8, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.7, ""classifier__min_samples_leaf"": 1, ""classifier__n_estimators"": 60}",0.9636408407973597,0.7605433096840684,0.03477595938951951
+Random Forest | SMOTE | tuned,3,"{""classifier__max_depth"": 8, ""classifier__max_features"": ""sqrt"", ""classifier__max_samples"": 0.5, ""classifier__min_samples_leaf"": 2, ""classifier__n_estimators"": 60}",0.9583423480882466,0.7624349374119938,0.027002778589322363

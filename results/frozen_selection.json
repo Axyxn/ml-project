@@ -1,0 +1,7 @@
+{
+  "experiment": "Random Forest | None | baseline",
+  "validation_ap": 0.8658817758207646,
+  "threshold": 0.25946229880048227,
+  "criterion": "Highest validation AP; threshold maximizes validation F1",
+  "test_used_for_selection": false
+}

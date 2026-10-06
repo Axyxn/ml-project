@@ -1,0 +1,7 @@
+{
+  "class_imbalance": "Training has 169,951 legitimate and 284 fraudulent transactions (0.167% fraud). The log axis makes the small fraud class visible. Accuracy is dominated by legitimate records; never balance the evaluation partitions.",
+  "amount_time_distributions": "Median Amount is 22.05 for legitimate and 11.86 for fraud. Each class is normalized separately, so compare shapes rather than counts. Log amount is a visualization transform only. Time reflects this short observation window, not a reliable future fraud rule; neither feature alone perfectly separates classes.",
+  "correlation_heatmap": "Strongest absolute training target correlations: V17 (0.320), V14 (0.299), V12 (0.251), V10 (0.208). Correlation detects linear associations; low correlation does not exclude nonlinear predictive value. PCA components are anonymized, so correlation cannot reveal business causes.",
+  "pca_distributions": "V17, V14 were chosen for display from training target correlations. Different medians or spreads suggest predictive signal, but overlap creates errors. Hiding boxplot fliers improves readability; no rows were removed from training.",
+  "time_amount_scatter": "This combines all training frauds with at most 3,000 legitimate records for readable plotting. It does not represent class prevalence. Fraud can occur at small or large amounts; a high-amount-only rule would miss some fraud. The symlog axis retains zero amounts."
+}

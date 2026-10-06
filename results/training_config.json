@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "validation_size": 0.2,
+  "selected_k": 20,
+  "selection_max_rows": 60000,
+  "smote_ratio": 0.1,
+  "cv_folds": 3,
+  "tuning_iterations": 3,
+  "tuning_max_rows": 60000,
+  "n_jobs": 2
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+pytest-cache-files-*/
+.ipynb_checkpoints/
+.cache/
+data/*.csv
+data/*.zip
+data/*.part
+models/*.joblib
+results/*.log
+results/verification*.json
+.streamlit/secrets.toml
