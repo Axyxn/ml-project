@@ -38,6 +38,11 @@ def load_artifacts(model_dir=ROOT / "models"):
         if metadata["versions"]["sklearn"] != sklearn.__version__:
             raise ArtifactError("scikit-learn differs from the training version. Install requirements.txt or retrain.")
         pipeline = joblib.load(model_dir / "best_model.joblib")
+        # Inference is small and may run in restricted Windows/Streamlit
+        # environments where joblib cannot create its worker pool.
+        classifier = pipeline.named_steps.get("classifier")
+        if hasattr(classifier, "n_jobs"):
+            classifier.set_params(n_jobs=1)
         scaler = joblib.load(model_dir / "scaler.joblib")
         selected = joblib.load(model_dir / "selected_features.joblib")
         if selected != metadata["selected_features"] or selected != pipeline.named_steps["select"].selected_features_:

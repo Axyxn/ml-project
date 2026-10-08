@@ -1,0 +1,7 @@
+{
+  "single_fraud_example": "passed",
+  "real_csv_upload": "passed",
+  "invalid_csv_message": "passed",
+  "capture_date": "2026-10-08",
+  "screenshots": 4
+}
